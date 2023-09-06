@@ -14,20 +14,17 @@
 		"build-storybook": "storybook build"
 	},
 	"dependencies": {
-		"@crestron/ch5-utilities-cli": "^2.0.0",
-		"@nderscore/tamagui-typescript-plugin": "^0.5.4",
 		"@rive-app/react-canvas": "^4.2.0",
-		"@rive-app/react-webgl": "^4.2.0",
 		"@tamagui/animations-css": "^1.61.1",
 		"@tamagui/lucide-icons": "^1.61.1",
-		"@tamagui/vite-plugin": "^1.61.1",
-		"eruda": "^3.0.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-native-svg": "^13.13.0",
 		"tamagui": "^1.61.1"
 	},
 	"devDependencies": {
+		"@crestron/ch5-utilities-cli": "^2.0.0",
+		"@nderscore/tamagui-typescript-plugin": "^0.5.4",
 		"@storybook/addon-essentials": "^7.4.0",
 		"@storybook/addon-interactions": "^7.4.0",
 		"@storybook/addon-links": "^7.4.0",
@@ -43,11 +40,13 @@
 		"@vitejs/plugin-react": "^4.0.4",
 		"@vitejs/plugin-react-swc": "^3.3.2",
 		"cross-env": "^7.0.3",
+		"eruda": "^3.0.1",
 		"eslint": "^8.48.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-react-refresh": "^0.4.3",
 		"eslint-plugin-storybook": "^0.6.13",
 		"storybook": "^7.4.0",
+		"@tamagui/vite-plugin": "^1.61.1",
 		"typescript": "^5.2.2",
 		"vite": "^4.4.9"
 	}
